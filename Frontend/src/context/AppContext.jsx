@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
   const currencySymbol = "$";
-  const backendUrl = "https://healthify-g6nz.onrender.com";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL;
   const [isLoading, setIsLoading] = useState(false);
   console.log("isLoading:", isLoading);
   const [doctors, setDoctors] = useState([]);
