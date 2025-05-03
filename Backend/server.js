@@ -38,8 +38,6 @@ import connectCloudinary from "./config/cloudinary.js"
 import adminRouter from "./routes/adminRoute.js"
 import doctorRouter from "./routes/doctorRoute.js";
 import usersRouter from "./routes/usersRoute.js"
-import feedbackRouter from "./routes/feedbackRoute.js"
-
 //app config
 
 const app= express()
@@ -61,7 +59,6 @@ app.use('/api/admin',adminRouter)
 
 app.use("/api/doctor", doctorRouter);
 app.use("/api/user", usersRouter);
-app.use('/api/feedback', require('./routes/feedbackRoute'));
 
 app.get('/',(req,res)=>{
     res.send('API WORKING new')
