@@ -20,18 +20,18 @@ const About = () => {
           />
           <div className="flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600">
             <p>
-              Welcome to <b>Prescripto</b> — your reliable partner in
+              Welcome to <b>Healthify</b> — your reliable partner in
               simplifying healthcare management. We know how overwhelming it can
               be to juggle appointments, health updates, and doctor
               consultations. That's why we're here — to make your medical
               journey smooth, efficient, and stress-free.
             </p>
             <p>
-              At Prescripto, we blend technology with compassion. Our platform
+              At Healthify, we blend technology with compassion. Our platform
               is constantly evolving, integrating the latest advancements to
               offer a seamless and intuitive experience. Whether you're booking
               a consultation, following up on treatment, or organizing health
-              records, Prescripto is designed to support your healthcare needs
+              records, Healthify is designed to support your healthcare needs
               at every stage.
             </p>
             <b className="text-gray-800">Our Vision</b>

@@ -7,9 +7,9 @@ const Footer = () => {
         <div>
           <img className="mb-5 w-40" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
-            Prescripto: Bridging the gap between doctors and patients with
-            seamless appointment management, secure prescriptions, and
-            personalized healthcare solutions. Your health, our priority.
+            Healthify: Connecting doctors and patients through effortless
+            appointment scheduling, secure digital prescriptions, and tailored
+            healthcare experiences. Because your well-being is our mission.
           </p>
         </div>
 
@@ -17,10 +17,10 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Privacy policy</li>
+            <li className="hover:text-gray-900">Home</li>
+            <li className="hover:text-gray-900">About us</li>
+            <li className="hover:text-gray-900">Contact us</li>
+            <li className="hover:text-gray-900">Privacy policy</li>
           </ul>
         </div>
 
@@ -28,8 +28,8 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li> Tel: (415) 555‑0132 </li>
-            <li>help@prescripto.com</li>
+            <li> Tel: 9876543210</li>
+            <li>healthify@help.com</li>
           </ul>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Footer = () => {
         {/* -----------copy right text--------- */}
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright © 2024 - All Right Reserved.
+          Copyright © 2025 - All Right Reserved.
         </p>
       </div>
     </div>

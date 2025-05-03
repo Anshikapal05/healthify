@@ -39,7 +39,7 @@ const AppContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.log("error:", error);
+      console.log("Error:", error);
       toast.error(error.message);
     }
   };
@@ -57,7 +57,7 @@ const AppContextProvider = (props) => {
 
   useEffect(() => {
     // request intercepter
-    console.log("inter");
+    console.log("Enter");
     axios.interceptors.request.use(
       (config) => {
         setIsLoading(true);

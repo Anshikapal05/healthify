@@ -12,7 +12,7 @@ import appointments_icon from "./appointments_icon.svg";
 import appointment_img from "./appointment_img.png";
 import earning_icon from "./earning_icon.svg";
 import patients_icon from "./patients_icon.svg";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import profile_pic from "./profile_pic.png";
 import dropdown_icon from "./dropdown_icon.svg";
 import group_profiles from "./group_profiles.png";
@@ -29,7 +29,7 @@ import upload_icon from "./upload_icon.png";
 import Dermatologist from "./Dermatologist.svg";
 import Gastroenterologist from "./Gastroenterologist.svg";
 import General_physician from "./General_physician.svg";
-import Gynecologist from "./Gynecologist.svg";
+import Gynaecologist from "./Gynaecologist.svg";
 import Neurologist from "./Neurologist.svg";
 import Pediatricians from "./Pediatricians.svg";
 
@@ -62,7 +62,7 @@ export const assets = {
   contact_image,
   header_img,
   General_physician,
-  Gynecologist,
+  Gynaecologist,
   Dermatologist,
   Pediatricians,
   Neurologist,
@@ -75,8 +75,8 @@ export const specialityData = [
     image: General_physician,
   },
   {
-    speciality: "Gynecologist",
-    image: Gynecologist,
+    speciality: "Gynaecologist",
+    image: Gynaecologist,
   },
   {
     speciality: "Dermatologist",
@@ -116,7 +116,7 @@ export const specialityData = [
 //     _id: "doc2",
 //     name: "Dr. Emily Larson",
 //     image: doc2,
-//     speciality: "Gynecologist",
+//     speciality: "Gynaecologist",
 //     degree: "MBBS",
 //     experience: "3 Years",
 //     about:
@@ -206,7 +206,7 @@ export const specialityData = [
 //     _id: "doc8",
 //     name: "Dr. Timothy White",
 //     image: doc8,
-//     speciality: "Gynecologist",
+//     speciality: "Gynaecologist",
 //     degree: "MBBS",
 //     experience: "3 Years",
 //     about:
@@ -296,7 +296,7 @@ export const specialityData = [
 //     _id: "doc14",
 //     name: "Dr. Ryan Martinez",
 //     image: doc14,
-//     speciality: "Gynecologist",
+//     speciality: "Gynaecologist",
 //     degree: "MBBS",
 //     experience: "3 Years",
 //     about:

@@ -23,7 +23,7 @@ const Doctors = () => {
   }, [doctors, speciality]);
   return (
     <div>
-      <p className="text-gray-600">Browse through the doctors specialist.</p>
+      <p className="text-gray-600">Browse through the Doctors Specialist!</p>
       <div className="flex">
         <div className="flex items-start gap-5 mt-5">
           <button
@@ -51,16 +51,16 @@ const Doctors = () => {
                   : ""
               }`}
             >
-              General physician
+              General Physician
             </p>
             <p
               onClick={() =>
-                speciality === "Gynecologist"
+                speciality === "Gynaecologist"
                   ? navigate(`/doctors`)
-                  : navigate("/doctors/Gynecologist")
+                  : navigate("/doctors/Gynaecologist")
               }
               className={`w-[91vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
-                speciality === "Gynecologist" ? "bg-indigo-100 text-black" : ""
+                speciality === "Gynaecologist" ? "bg-indigo-100 text-black" : ""
               }`}
             >
               Gynaecologist

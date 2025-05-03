@@ -15,6 +15,7 @@ import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import axios from "axios";
 import TopLoadingBar from "./components/TopLoadingBar";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const { isLoading, setIsLoading } = useContext(AppContext);
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/appointment/:docId" element={<Appointment />}></Route>
           <Route path="*" element={<div>Not found</div>} />
         </Routes>
+        <ScrollToTop />
         <Footer />
         <ToastContainer />
       </div>

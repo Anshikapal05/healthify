@@ -175,7 +175,7 @@ const Appointment = () => {
               </p>
             </div>
             <p className="text-gray-500 font-medium mt-4">
-              Appointment fee:{" "}
+              Appointment Fee:{" "}
               <span className="text-gray-600">
                 {currencySymbol}
                 {docInfo.fees}
@@ -187,7 +187,7 @@ const Appointment = () => {
         {/* ---------- Booking slots */}
 
         <div className="sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
-          <p>Booking slots</p>
+          <p>Booking Slots</p>
           <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">
             {docSlots.length &&
               docSlots.map((item, index) => (
@@ -216,7 +216,7 @@ const Appointment = () => {
             onClick={bookAppointment}
             className="bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-5"
           >
-            Book an appointment
+            Book an Appointment
           </button>
         </div>
 

@@ -10,7 +10,7 @@ const TopDoctors = () => {
     <div className="flex flex-col items-center gap-4 mp-16 text-gray-900 md:mx-10">
       <h1 className="text-3xl font-medium">Top Doctors to Book</h1>
       <p className="sm:w-1/3 text-center text-sm">
-        Simply browse through our extensive list of trusted doctors.
+        Simply browse through our extensive list of trusted doctors and book your Appointment at one Click!
       </p>
       {/* gridTemplateColumns */}
 
@@ -51,7 +51,7 @@ const TopDoctors = () => {
         }}
         className="bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10"
       >
-        more
+        More...
       </button>
     </div>
   );
