@@ -7,7 +7,7 @@ Built with **React JS**, **MongoDB**, **Express**, and **Node JS**
 
 ## 🩺 About Us
 
-Welcome to * Healthify** — your reliable partner in simplifying healthcare management.  
+Welcome to *Healthify* — your reliable partner in simplifying healthcare management.  
 We understand how overwhelming it can be to juggle appointments, health updates, and doctor consultations. That's why we're here — to make your medical journey smooth, efficient, and stress-free.
 
 At Healthify, we blend **technology with compassion**. Our platform is constantly evolving, integrating the latest advancements to offer a seamless and intuitive experience. Whether you're booking a consultation, following up on treatment, or organizing health records, Healthify is designed to support your healthcare needs at every stage.
