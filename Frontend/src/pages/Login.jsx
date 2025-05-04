@@ -23,7 +23,6 @@ const Login = () => {
           password,
           email,
         });
-        console.log("data:", data);
         if (data.success) {
           localStorage.setItem("token", data.token);
           setToken(data.token);

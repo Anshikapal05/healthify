@@ -33,16 +33,13 @@ const DoctorContextProvider = (props) => {
   };
 
   const completeAppointment = async (appointmentId) => {
-    console.log("appointmentId:", appointmentId);
     try {
       const { data } = await axios.post(
         backendUrl + "/api/doctor/complete-appointment",
         { appointmentId },
         { headers: { dToken } }
       );
-      console.log("data:", data);
       if (data.success) {
-        console.log("data:", data);
         getAppointments();
 
         toast.success(data.message);
@@ -96,7 +93,7 @@ const DoctorContextProvider = (props) => {
       });
       if (data.success) {
         setProfileData(data.profileData);
-        console.log("data:", data);
+
       } else {
         toast.error(data.message);
       }

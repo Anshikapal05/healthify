@@ -18,7 +18,6 @@ const AdminContextProvider = (props) => {
       const { data } = await axios.get(backendUrl + "/api/admin/all-doctors", {
         headers: { aToken },
       });
-      console.log("data:", data);
 
       if (data.success) {
         // Filter out doctors with missing essential data (like name or email)
@@ -56,14 +55,13 @@ const AdminContextProvider = (props) => {
   };
 
   const getAllAppointments = async () => {
-    console.log("getAllAppointments:");
     try {
       const { data } = await axios.get(backendUrl + "/api/admin/appointments", {
         headers: { aToken },
       });
       if (data.success) {
         setAppointments(data.appointments);
-        console.log("data.appointments:", data);
+        
       } else {
         toast.error(data.message);
       }
@@ -99,7 +97,6 @@ const AdminContextProvider = (props) => {
         headers: { aToken },
       });
       if (data.success) {
-        console.log("data:", data);
         setDashData(data.dashData);
       } else {
         toast.error(data.message);
