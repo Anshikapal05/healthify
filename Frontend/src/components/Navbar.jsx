@@ -41,7 +41,7 @@ const Navbar = () => {
         </NavLink>
         <li>
           <a
-            href="http://localhost:5174"
+            href="https://healthify-admin-alpha.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary border border-gray-900 px-4 py-1.5 rounded-xl hover:bg-primary hover:text-white transition duration-300"
